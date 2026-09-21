@@ -1,0 +1,78 @@
+from app.schemas.user import UserBase, UserCreate, UserLogin, UserResponse, TokenResponse
+from app.schemas.subject import SubjectBase, SubjectCreate, SubjectUpdate, SubjectResponse
+from app.schemas.test import (
+    TestBase,
+    TestCreate,
+    TestUpdate,
+    TestResponse,
+    TestDetailResponse,
+    RoomJoinResponse,
+)
+from app.schemas.question import (
+    AnswerBase,
+    AnswerCreate,
+    AnswerUpdate,
+    AnswerResponse,
+    StudentAnswerResponse,
+    QuestionBase,
+    QuestionCreate,
+    QuestionUpdate,
+    QuestionResponse,
+    StudentQuestionResponse,
+)
+from app.schemas.attempt import (
+    AttemptAnswerSubmit,
+    AttemptResponse,
+    StudentAttemptPlay,
+    AttemptFinishResponse,
+    TeacherTestResultsResponse,
+    TestStatisticsResponse,
+)
+from app.schemas.material import MaterialResponse
+from app.schemas.ai import (
+    AIAnswerItem,
+    AIQuestionItem,
+    AIGeneratedQuiz,
+    AIGenerateRequest,
+    AIGenerateResponse,
+)
+
+__all__ = [
+    "UserBase",
+    "UserCreate",
+    "UserLogin",
+    "UserResponse",
+    "TokenResponse",
+    "SubjectBase",
+    "SubjectCreate",
+    "SubjectUpdate",
+    "SubjectResponse",
+    "TestBase",
+    "TestCreate",
+    "TestUpdate",
+    "TestResponse",
+    "TestDetailResponse",
+    "RoomJoinResponse",
+    "AnswerBase",
+    "AnswerCreate",
+    "AnswerUpdate",
+    "AnswerResponse",
+    "StudentAnswerResponse",
+    "QuestionBase",
+    "QuestionCreate",
+    "QuestionUpdate",
+    "QuestionResponse",
+    "StudentQuestionResponse",
+    "AttemptAnswerSubmit",
+    "AttemptResponse",
+    "StudentAttemptPlay",
+    "AttemptFinishResponse",
+    "TeacherTestResultsResponse",
+    "TestStatisticsResponse",
+    "MaterialResponse",
+    "AIAnswerItem",
+    "AIQuestionItem",
+    "AIGeneratedQuiz",
+    "AIGenerateRequest",
+    "AIGenerateResponse",
+]
